@@ -2,7 +2,10 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
-
+ul,a,li{
+	text-decoration: none;
+	list-style: none;
+}
 .main-continer {
   display: flex;
   flex-direction: row-reverse;
@@ -79,12 +82,12 @@ body {
 .my-Work-Experience {
   margin-left: 90px;
 }
-.Education {
+.education {
   margin-left: 90px;
   margin-top: 40px;
   margin-bottom: 100px;
 }
-.Education-University {
+.education-University {
   font-weight: 700;
   font-size: 16px;
   color: orangered;
@@ -98,10 +101,10 @@ body {
 }
 
 .contact,
-.Tech-Skills {
+.tech-Skills {
   margin: 50px 0 0 40px;
 }
-.Soft-Skills {
+.soft-Skills {
   margin: 50px 0 0 40px;
 }
 .titel-1 {
@@ -122,21 +125,32 @@ body {
   margin-right: 7px;
 }
 .contact-type-link {
-  font-style: normal;
+	display: flex;
+	align-items: center;
+	font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: #d5dbe4;
 }
+.social-link{
+	display: flex;
+	align-items: center
+
+
+}
+.svg-social{
+	padding-right: 10px;
+}
 /* Tech-Soft-Skills */
-.Tech-Soft-Skills {
+.tech-Soft-Skills {
   padding: 0;
   padding-left: 17px;
 }
-.Tech-Soft {
+.tech-Soft {
   color: #fb6d3a;
 }
-.Tech-Soft-text {
+.tech-Soft-text {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -144,23 +158,22 @@ body {
   color: #fff;
 }
 
-.Experience-1 {
+.experience-1 {
   padding-left: 21px;
   padding-right: 200px;
 }
 
-.Projects-1 {
+.projects-1 {
   padding-top: 1px;
 }
-.FOTO {
-  /* border-radius: 75px; */
-  padding-left: 18px;
+.foto {
+  padding-left: 50px;
 }
-.Tochka {
+.tochka {
   font-style: 100px;
   color: #1e2939;
 }
-.Уровень {
+.level {
   font-style: italic;
   font-weight: bold;
   color: #fff;
