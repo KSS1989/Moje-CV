@@ -5,6 +5,7 @@ body {
 ul,a,li{
 	text-decoration: none;
 	list-style: none;
+	margin: 0;
 }
 .main-continer {
   display: flex;
@@ -102,7 +103,7 @@ ul,a,li{
 
 .contact,
 .tech-Skills {
-  margin: 50px 0 0 40px;
+  margin: 50px 40px 0 40px;
 }
 .soft-Skills {
   margin: 50px 0 0 40px;
@@ -113,7 +114,7 @@ ul,a,li{
   font-size: 25px;
   line-height: 27px;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* contacts section */
@@ -143,9 +144,15 @@ ul,a,li{
 	padding-right: 10px;
 }
 /* Tech-Soft-Skills */
-.tech-Soft-Skills {
-  padding: 0;
+.tech-Skills-icon{
+	display: flex;
+	flex-wrap: wrap;
+	gap:	25px;
+
+}
+.tech-soft-Skills {
   padding-left: 17px;
+  padding-right: 17px;
 }
 .tech-Soft {
   color: #fb6d3a;
