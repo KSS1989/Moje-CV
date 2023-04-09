@@ -144,10 +144,11 @@ ul,a,li{
 	padding-right: 10px;
 }
 /* Tech-Soft-Skills */
-.tech-Skills-icon{
+
+.tech-skills-icon{
 	display: flex;
 	flex-wrap: wrap;
-	gap:	25px;
+	gap: 25px;
 
 }
 .tech-soft-Skills {
